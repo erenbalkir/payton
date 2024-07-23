@@ -1428,7 +1428,6 @@ if __name__ == "__main__":
 
 """
 
-git config –global user.email “armansarial@gmail.com”
-git config -–global user.name “Arman SARIAL”
+
 
 
