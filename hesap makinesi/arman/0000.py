@@ -1,4 +1,5 @@
 # İşlem seçeneklerini ekrana yazdıralım
+"""
 print("Yapılacak İşlemi Seçiniz:")
 print("1. Toplama")
 print("2. Çıkarma")
@@ -43,5 +44,9 @@ elif secim == 4:
         print(f"{sayi1} / {sayi2} = {sonuc}")
 else:
     print("Beklenmeyen bir hata oluştu!")
+
+
+"""
+
 
 

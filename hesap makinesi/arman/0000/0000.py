@@ -1227,7 +1227,7 @@ if __name__ == "__main__":
 
 
 
-
+"""
 import sys
 import requests
 from PyQt5.QtWidgets import QApplication, QMainWindow, QTableWidget, QTableWidgetItem, QVBoxLayout, QWidget, QLabel, QLineEdit, QPushButton, QHBoxLayout, QComboBox, QFileDialog, QMessageBox
@@ -1392,7 +1392,7 @@ class MainWindow(QMainWindow):
             response_selected.raise_for_status()  # HTTP hataları burda
             data_selected = response_selected.json()
             
-            root = ET.Element("kurlar")
+            root = ET.Element("kurlar") 
             
             for currency, info in data_selected.items():
                 kur = ET.SubElement(root, "kur")
@@ -1424,9 +1424,7 @@ if __name__ == "__main__":
     window = MainWindow()
     window.show()
     sys.exit(app.exec_())
-
-
-"""
+    
 
 
 
